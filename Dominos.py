@@ -2,8 +2,8 @@ from pizzapi import *
 from pprint import pprint
 import sys
 
-customer = Customer('Keith', 'Burroughs', 'keithburroughs33@gmail.com', '9198094880')
-address = Address('2530 Medway Drive', 'Raleigh', 'NC', '27608')
+customer = Customer('Donald', 'Trump', 'Donaldtrump@gmail.com', '1111111111')
+address = Address('1234 address drive', 'san jose', 'ca', '90001')
 
 store = address.closest_store()
 menu = store.get_menu()
