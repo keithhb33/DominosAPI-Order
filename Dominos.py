@@ -33,7 +33,7 @@ if confirmation.lower() == "yes" or confirmation.lower() == "y":
             print("Choose one of the options above. Ending program")
             sys.exit(0)
 
-    card = PaymentObject('7654546756645356', '1126', '423', '48327')
+    card = PaymentObject('CREDITCARDNUMBER', 'EXP', 'CVV', 'ZIPCODE')
     pprint(vars(order))
     print("Ordering...")
     order.pay_with(card)
